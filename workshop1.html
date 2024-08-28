@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORKSHOP</title>
+</head>
+<body>
+    <h1><center>
+        WORKSHOP
+    </center></h1>
+    <b>1.What is the difference between div and span?.</b>
+    <pre>
+    <p> The main difference between div & span elements.
+        DIV: 
+        * The Div is a block line element , its always start new line.
+        * It is occupies the full width of the screen.
+        * DIV element is used to divide the content when we build a large Websites. 
+        * The Div element is used as a container for other html elements.
+        * The Block-level elements are generally used to structure larger sections of a page  such as containers for layout or grouping content.
+        
+        SPAN: 
+        *The span is an Inline Element.The span Element It occupies the content width of the space & stars same line.
+        *It is used to wrap(or) combine multiple elements together.
+        *The Inline Elements are typically used for styling or modifying a part of text within a new line without affecting the layout of surrounding content.
+        *The span tag is used to specify the specific content as you want.
+        *It is used to styling or scripting whin in a block of text.for this instance,you might use a span tag to change the color or style of a few words with in a paragraph with out affecting the layout of the paragraph itself.
+    </p>
+    </pre>
+
+<b>2.what are the semantic elements in html?.</b>
+<p>
+    Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way.
+    They help to create a well-structured and meaningful web page, improving accessibility, SEO, and
+    maintainability. Here are some common semantic elements and their purposes:
+</p>
+<p>
+<pre>
+header: The header represents introduction content or a set of navigation links,typically found at the top of a page or section.
+ 
+nav :Defines a navigation section, usually connecting links to other pages tor  sections of website.
+    
+main : Represents thedominant   content of the body, eexcluding headers, footers,and sidebars. There should be only one main element per document.
+    
+section : Defines a section of content, typically with a heading. It groups related content together.
+    
+article : Represents a self-contained piece of content that could be distributed independently, such as a blog post, news article, or forum post.
+    
+aside : Contains content that is tangentially related to the content around it, such as sidebars, pull quotes, or advertisements.
+    
+footer : Contains footer content for a section or the entire page, such as contact information, copyright notices, or links to related documents.
+    
+figure : Used to encapsulate media (like images, illustrations, or videos) and its caption, which is specified with the figcaption element.
+    
+figcaption: Provides a caption or description for the content inside a figure.
+    
+time: Represents a specific period in time, such as a date or time, and allows for better machine readability.
+    
+address: Provides contact information for the author or owner of a document or section.
+    
+details: Allows the user to view or hide additional information, typically shown or hidden with a toggle.
+    
+summary: Provides a summary or heading for the content inside a details element.
+    
+mark: Highlights parts of text that have relevance or importance, often used to emphasize a keyword or phrase.
+    
+label: Defines a label for an input element, improving form accessibility by associating labels with form controls.
+    
+Using semantic elements helps both browsers and assistive technologies understand the structure and content of a web page better, leading to improved user experience and accessibility.
+</pre>
+</p>
+<b>3.What is the difference between href attribute & src attribute?.</b>
+<p>The href attribute& src attribute are used in html to link resource,but they served different purpose:
+  <pre>
+href:The href attribute specifies the URL of the page the link goes to.If the href attribute is not present the anchor tag will not be a hyperlink.
+src:The source attribute specifies the url of a resource of embed or include.it is used with elements like img,script and iframes.it is primarly for embedding resource such as images ,scripts,or iframes into the current document.
+</pre>
+</p>
+ 
+<b>4.what is the difference between xml&html?.</b>
+<pre>
+<p>XML stands for Extensible Markup language,& HTML stands for Hyper Text markup language.these both are markup languages ,but they serve different purpose and have distinct characteristics:
+    HTML: The html is used for creating Designed for creating and displaying web pages(or)web applications.
+    *The html we can create our static pages.it is used to displaying the data not to transport the data.
+    *It is used predefined tags(like p,div,a etc..)that are standardized and understood by web browsers.
+    *Html tags are not case-sensitive tags.
+    *Html primarly used for displaying content on webpage.
+
+    XML:Extensible markup language is a versitile markup language .
+    *It is designed for carrying & storing data.
+    *xml is also  use to create webpages and web applications .it is dynamic ,because it is used to transport the data not for displaying the data.
+
+
+    </p>
+    </pre>
+    <b>5.what are list tags and how many are they?</b>
+    <pre>HTML lists allow web developers to group a set of related items in lists.
+
+        Unordered HTML List:
+        An unordered list starts with the ul tag. Each list item starts with the li tag.
+        
+        The list items will be marked with bullets (small black circles) by default.
+        
+        Ordered HTML List:
+        An ordered list starts with the ol tag. Each list item starts with the li tag.
+        
+        The list items will be marked with numbers by default.
+        
+        Description list:
+        A description list is a list of terms, with a description of each term.
+        The dl tag defines the description list, the dt tag defines the term (name), and the dd tag describes each term:
+        </pre>    
+    </p>
+</div>
+<div>
+    <b>Create a iframe where single iframe can opens multiple links in it.</b>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <iframe name="frame" width="400" height="300"></iframe>
+    <a href="../../assets/images/sam.jpg" target="frame">sam</a>
+    <a href="https://www.youtube.com/embed/YFZMBqyXkqQ?si=PGBO5Aegc6K5te10" target="frame">trailer</a>
+    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.5200310564!2d78.38860507369174!3d17.48267210005609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb918f3da95cd5%3A0x5168f6c1178bd29c!2s10%2C%20KPHB%206th%20Phase%20Rd%2C%20Vidhura%20Vihar%2C%20K%20P%20H%20B%20Phase%206%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana%20500085!5e0!3m2!1sen!2sin!4v1722333239528!5m2!1sen!2sin" target="frame">map</a>
+    <a href="https://www.ajio.com/" target="frame">ajio</a>
+    <b>Create a register form using name, email, age, privacy policies and submit and do validations.</b>
+        <p>
+</body>
+</html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+</head>
+<body >
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body width="30" height="60">
+    <form action="form1.text">
+        <center>
+            <div style="background-color:#61b3f7;" width="400px">
+                <br>
+                <br>
+                <br>
+                <div style=" background-color: white;border:2px solid; width:400px; height:500px;">
+                <h1>SIGN UP</h1>
+                <p>please fill in the form to create an account!</p>
+                <div style="background-color: white;">
+                <hr>
+                <br>
+                <input type="text" name="firstname" placeholder="FIRST NAME"><br>
+                <br>
+
+                <label for="lastname" lastname:></label>
+                <input type="text" placeholder="LAST NAME"><br>
+                 
+                <label for="email" email:></label><br>
+                <input type="text" id="email" placeholder="EMAIL"><br>
+                <br> 
+                <label for="password" password:></label>
+                <input type="text" id="password" placeholder="PASSWORD">
+                <br>
+                <br>
+                <input type="text" placeholder="confirm password">
+                <br>
+                <br>
+                </div>
+                <input type="checkbox" >
+                I Accept the <a href="https://www.instagram.com/accounts/login/?hl=en"> </a>
+                <a href="https://www.instagram.com/accounts/login/?hl=en" >  terms of use & privacy policy</a>
+                <br>
+                <br>
+                <input type="submit" name="signup" value="signup">
+                
+                </div>
+
+                </pre>
+    </form>
+    Already have an account?<a href="#login here">Login here</a>
+    </center>
+
+
+    <br>
+    <br>
+    <hr>
+    <form action="form1.text">
+    <center> 
+        <div style="background-color:aqua; width: 500px;">
+        <table align="center" >
+            <tr>
+                <td>
+        
+        <form  style="background-color: aliceblue;  padding: 20px;"    action="/login" method="post">
+          <center><h2>Login</h2></center>  
+            <!-- <label for="email">Email</label><br> -->
+            <input type="email" id="email" name="email" placeholder="Email"><br><br>
+            
+            <!-- <label for="password">Password</label><br> -->
+            <input type="password" id="password" name="password" placeholder="Password"><br><br>
+            
+          <center><input style="background-color: silver;" type="submit" value="Login">  
+            
+        <p><a href="/forgot-password">Forgot Password?</a></p>
+        <p>Don't have an account? <a href="https://www.instagram.com/accounts/login/?hl=en">Sign up</a></p>
+            </center> 
+        </form>
+    </td>
+    </tr>
+    </table>
+       </div>
+    </center>
+</form>
+</body>
+
+</html>
+
+
+    
+</body>
+</html>
+<b>What is command for command local repo and github repo.</b>
+        <p>
+            git remote add origin "link".
+        </p>
+    </div>
+    <div>
+        <b>git command to change the directory of local folder?</b>
+        <p>
+            git branch --> git branch "branch name" --> git checkout "branch name".
+        </p>
+    </div>
+    <div>
+        <b>git command to check the commit on the project?</b>
+        <p>git status</p>
+    </div>
+    <div>
+        <b>git command for pushing all the code to branch?</b>
+        <p>git push origin main</p>
+    </div>
+    <div>
+        <b>diff b/w the pull and push command in git?</b>
+        <p>Push is used to send the file from computer to github through git. Pull is used to retrive the files from github repo.</p>
+    </div>
+    <div>
+        <b>command to check the no of branchs and commands to switch the branch?</b>
+        <p>git branch --> git branch "branch name" --> git checkout "branch name"</p>
+    </div>
+    <div>
+        <b>what are the stages of our project to reach to github repo?</b>
+        <p>git init --> git add . --> git commit -m "" --> git remote add origin "" --> git branch -M main --> git push origin main</p>
+    </div>
+    <div>
+        <b> the command which we use in stagging area?</b>
+        <p> git add.</p>
+    </div>
+    
+</body>
+</html>
